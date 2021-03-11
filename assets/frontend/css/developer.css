@@ -1,0 +1,143 @@
+.active_favorite_btn{
+    /*    background: -webkit-linear-gradient(#cc008e, #99008f) !important;
+        -webkit-text-fill-color: #fff !important;*/
+    border: 1px solid #d9008d;
+    background-color: #d9008d;
+    color: #fff;
+    /*width: 130px;*/
+}
+.display_block{
+    display: block !important;
+    background: transparent !important;
+}
+.product_name .display_block{
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+.custom_developer_table td,.custom_developer_table th{
+    padding: 15px !important;
+}
+.custom_developer_table .order_date,.custom_developer_table .payment_status {
+    font-size: 15px !important;
+}
+.payment_status.processing{
+    color: #da52a6;
+    cursor: pointer;
+
+}
+.delete_product_my_favorites:hover{
+    color: red;
+    cursor: pointer;
+}
+.no_data_row{
+    text-align: center;
+    color: red;
+}
+.header-hold-wrapper{
+    padding-top: 0px; margin-bottom: 50px;
+}
+
+/*=======*/
+.selected_location_span, .selected_service_span{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: #e2e2e2;
+    padding: 0px 3px; margin: 2px;
+    display: inline-block;
+}
+.selected_location_span .remove_selected_location,
+.selected_service_span .remove_selected_service{
+    margin: 0px 3px;
+}
+.selected_location_span .remove_selected_location:hover,
+.selected_service_span .remove_selected_service:hover,
+.pro_more_saved_image_content .remove_pro_img_modal:hover{
+    cursor: pointer; color: red;
+}
+.more_image_modal_item{margin: 2px; position: relative}
+.more_image_modal_item img{border: 1px solid gray; border-radius: 8px}
+.pro_more_saved_image_content .remove_pro_img_modal{
+    position: absolute;
+    left: 33px;
+    background: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.location_autocomplete_list{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.location_autocomplete_list ul{  background: #fff; padding: 10px; border: 1px solid #ced4da;
+    margin-top: 4px; border-radius: 4px; }
+.auto_location_city_name, .auto_location_service_name{
+    cursor: pointer;
+    padding: 3px;
+}
+.auto_location_city_name b, .auto_location_service_name b{
+    color: #940060;
+}
+.no_data_found{
+    padding: 40px 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    color: red;
+}
+
+.location_autocomplete_list_parent{position: relative}
+.location_autocomplete_list_parent .location_autocomplete_list{
+    position: absolute;
+    background: white;
+    z-index: 999;
+    top: 43px;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.include_my_product_inner .productdetails{display: flex;}
+.include_my_product_inner .productdetails select{
+    margin-left: 22px;
+    border: 1px solid #e4e2e2;
+    border-radius: 5px;
+}
+.glyphicon{display: none !important;}
+.dropdown-menu {min-width: 14rem}
+.active_subscription_btn{
+    font-size: 11px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 1px 3px;
+    margin-left: 10px;
+    background: green;
+    color: white;
+}
+.profile_city_location_auto_content, .business_installation_services_auto_content{
+    position: absolute;
+    z-index: 9999999;
+    background: white;
+    width: 100%;
+}
+#edit_profile_icon_btn:hover{cursor: pointer; color: blue}
+.edit_profile_form textarea#address, .edit_profile_form .company_address{
+    height: 60px !important;
+    line-height: 20px;
+}
+.edit_profile_form .edit_radio{
+    width: 20px;
+    display: inline;
+    margin: 3px;
+    height: 25px !important;
+}
+input:read-only, textarea:read-only{cursor: no-drop}
+
+.request_sec_heading{
+    background: gray;
+    color: white;
+    padding: 2px 8px;
+    font-weight: 600;
+}
